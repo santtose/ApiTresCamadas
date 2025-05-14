@@ -18,7 +18,7 @@ namespace DevIO.Business.Services
         {
             if (!ExecutarValidacao(new ProdutoValidation(), produto)) return;
 
-            var produtoExistente = _produtoRepository.ObterPorId(produto.Id);
+            var produtoExistente = await _produtoRepository.ObterPorId(produto.Id);
 
             if (produtoExistente != null)
             {
