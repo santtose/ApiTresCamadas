@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pJaAccyaszI=",
+  "dgSpecHash": "OLXmP50qc/w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\diogo_santos\\Desktop\\devIO\\arquiteturaTresCamadas\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "projectFilePath": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diogo_santos\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512"
   ],

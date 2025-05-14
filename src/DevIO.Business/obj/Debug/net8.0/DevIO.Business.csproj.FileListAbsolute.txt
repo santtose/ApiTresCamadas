@@ -11,3 +11,16 @@ C:\Users\diogo_santos\Desktop\devIO\arquiteturaTresCamadas\ApiTresCamadas\src\De
 C:\Users\diogo_santos\Desktop\devIO\arquiteturaTresCamadas\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\refint\DevIO.Business.dll
 C:\Users\diogo_santos\Desktop\devIO\arquiteturaTresCamadas\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\DevIO.Business.pdb
 C:\Users\diogo_santos\Desktop\devIO\arquiteturaTresCamadas\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\ref\DevIO.Business.dll
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\bin\Debug\net8.0\DevIO.Business.deps.json
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\bin\Debug\net8.0\DevIO.Business.dll
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\bin\Debug\net8.0\DevIO.Business.pdb
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\DevIO.Business.csproj.AssemblyReference.cache
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\DevIO.Business.AssemblyInfoInputs.cache
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\DevIO.Business.AssemblyInfo.cs
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\DevIO.Business.csproj.CoreCompileInputs.cache
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\DevIO.Business.sourcelink.json
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\DevIO.Business.dll
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\refint\DevIO.Business.dll
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\DevIO.Business.pdb
+D:\diogo\DevIO\ApiTresCamadas\src\DevIO.Business\obj\Debug\net8.0\ref\DevIO.Business.dll

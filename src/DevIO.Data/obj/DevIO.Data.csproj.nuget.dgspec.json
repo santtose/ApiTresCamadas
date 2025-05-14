@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diogo_santos\\Desktop\\devIO\\arquiteturaTresCamadas\\ApiTresCamadas\\src\\DevIO.Data\\DevIO.Data.csproj": {}
+    "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Data\\DevIO.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diogo_santos\\Desktop\\devIO\\arquiteturaTresCamadas\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj": {
+    "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diogo_santos\\Desktop\\devIO\\arquiteturaTresCamadas\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectUniqueName": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj",
         "projectName": "DevIO.Business",
-        "projectPath": "C:\\Users\\diogo_santos\\Desktop\\devIO\\arquiteturaTresCamadas\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectPath": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj",
         "packagesPath": "C:\\Users\\diogo_santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diogo_santos\\Desktop\\devIO\\arquiteturaTresCamadas\\ApiTresCamadas\\src\\DevIO.Business\\obj\\",
+        "outputPath": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -27,7 +27,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -72,18 +72,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\diogo_santos\\Desktop\\devIO\\arquiteturaTresCamadas\\ApiTresCamadas\\src\\DevIO.Data\\DevIO.Data.csproj": {
+    "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Data\\DevIO.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diogo_santos\\Desktop\\devIO\\arquiteturaTresCamadas\\ApiTresCamadas\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectUniqueName": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Data\\DevIO.Data.csproj",
         "projectName": "DevIO.Data",
-        "projectPath": "C:\\Users\\diogo_santos\\Desktop\\devIO\\arquiteturaTresCamadas\\ApiTresCamadas\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectPath": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Data\\DevIO.Data.csproj",
         "packagesPath": "C:\\Users\\diogo_santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diogo_santos\\Desktop\\devIO\\arquiteturaTresCamadas\\ApiTresCamadas\\src\\DevIO.Data\\obj\\",
+        "outputPath": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -99,15 +99,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\diogo_santos\\Desktop\\devIO\\arquiteturaTresCamadas\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj": {
-                "projectPath": "C:\\Users\\diogo_santos\\Desktop\\devIO\\arquiteturaTresCamadas\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj"
+              "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj": {
+                "projectPath": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\DevIO.Business.csproj"
               }
             }
           }
@@ -121,7 +120,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -162,7 +162,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

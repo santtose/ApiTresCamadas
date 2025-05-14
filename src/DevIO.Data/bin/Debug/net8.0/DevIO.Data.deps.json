@@ -935,7 +935,10 @@
           "FluentValidation": "11.10.0"
         },
         "runtime": {
-          "DevIO.Business.dll": {}
+          "DevIO.Business.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

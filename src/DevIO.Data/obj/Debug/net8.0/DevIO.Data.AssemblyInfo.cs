@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevIO.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1fa618cb59650aed5411875aa8b4098de0dfe6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f76ae7e2e957a1258202b5cc4bcce61bbefcf66b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DevIO.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DevIO.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
