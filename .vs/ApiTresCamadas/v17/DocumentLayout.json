@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\diogo\\DevIO\\ApiTresCamadas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77A661FE-BE51-4EB5-BB2D-3E4C94970A9A}|src\\DevIO.Business\\DevIO.Business.csproj|d:\\diogo\\devio\\apitrescamadas\\src\\devio.business\\services\\fornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A661FE-BE51-4EB5-BB2D-3E4C94970A9A}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\services\\fornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61C106B2-C94A-42BF-AFAE-CB5B9A7C30E6}|src\\DevIO.Api\\DevIO.Api.csproj|d:\\diogo\\devio\\apitrescamadas\\src\\devio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C106B2-C94A-42BF-AFAE-CB5B9A7C30E6}|src\\DevIO.Api\\DevIO.Api.csproj|solutionrelative:src\\devio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A661FE-BE51-4EB5-BB2D-3E4C94970A9A}|src\\DevIO.Business\\DevIO.Business.csproj|d:\\diogo\\devio\\apitrescamadas\\src\\devio.business\\models\\validations\\fornecedorvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A661FE-BE51-4EB5-BB2D-3E4C94970A9A}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\models\\validations\\fornecedorvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61C106B2-C94A-42BF-AFAE-CB5B9A7C30E6}|src\\DevIO.Api\\DevIO.Api.csproj|d:\\diogo\\devio\\apitrescamadas\\src\\devio.api\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C106B2-C94A-42BF-AFAE-CB5B9A7C30E6}|src\\DevIO.Api\\DevIO.Api.csproj|solutionrelative:src\\devio.api\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77A661FE-BE51-4EB5-BB2D-3E4C94970A9A}|src\\DevIO.Business\\DevIO.Business.csproj|d:\\diogo\\devio\\apitrescamadas\\src\\devio.business\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A661FE-BE51-4EB5-BB2D-3E4C94970A9A}|src\\DevIO.Business\\DevIO.Business.csproj|solutionrelative:src\\devio.business\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61C106B2-C94A-42BF-AFAE-CB5B9A7C30E6}|src\\DevIO.Api\\DevIO.Api.csproj|d:\\diogo\\devio\\apitrescamadas\\src\\devio.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61C106B2-C94A-42BF-AFAE-CB5B9A7C30E6}|src\\DevIO.Api\\DevIO.Api.csproj|solutionrelative:src\\devio.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61C106B2-C94A-42BF-AFAE-CB5B9A7C30E6}|src\\DevIO.Api\\DevIO.Api.csproj|d:\\diogo\\devio\\apitrescamadas\\src\\devio.api\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C106B2-C94A-42BF-AFAE-CB5B9A7C30E6}|src\\DevIO.Api\\DevIO.Api.csproj|solutionrelative:src\\devio.api\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Bookmark",
@@ -111,54 +111,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FornecedorService.cs",
-              "DocumentMoniker": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\Services\\FornecedorService.cs",
-              "RelativeDocumentMoniker": "src\\DevIO.Business\\Services\\FornecedorService.cs",
-              "ToolTip": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\Services\\FornecedorService.cs",
-              "RelativeToolTip": "src\\DevIO.Business\\Services\\FornecedorService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAiAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Api\\Program.cs",
+              "ToolTip": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Api\\Program.cs",
+              "RelativeToolTip": "src\\DevIO.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:31:38.667Z",
+              "WhenOpened": "2024-10-01T18:53:41.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FornecedorValidation.cs",
-              "DocumentMoniker": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Validations\\FornecedorValidation.cs",
-              "RelativeDocumentMoniker": "src\\DevIO.Business\\Models\\Validations\\FornecedorValidation.cs",
-              "ToolTip": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\Models\\Validations\\FornecedorValidation.cs",
-              "RelativeToolTip": "src\\DevIO.Business\\Models\\Validations\\FornecedorValidation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "FornecedoresController.cs",
+              "DocumentMoniker": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\FornecedoresController.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Api\\Controllers\\FornecedoresController.cs",
+              "ToolTip": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\FornecedoresController.cs",
+              "RelativeToolTip": "src\\DevIO.Api\\Controllers\\FornecedoresController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:30:44.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T17:59:12.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "src\\DevIO.Api\\Controllers\\ProdutosController.cs",
               "ToolTip": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "src\\DevIO.Api\\Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAgwF0AAAAIAAAAAAAAAA==",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAkwD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T20:16:13.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T17:54:10.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProdutoService.cs",
-              "DocumentMoniker": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\Services\\ProdutoService.cs",
-              "RelativeDocumentMoniker": "src\\DevIO.Business\\Services\\ProdutoService.cs",
-              "ToolTip": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Business\\Services\\ProdutoService.cs",
-              "RelativeToolTip": "src\\DevIO.Business\\Services\\ProdutoService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Api\\Controllers\\MainController.cs",
+              "ToolTip": "D:\\diogo\\DevIO\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\MainController.cs",
+              "RelativeToolTip": "src\\DevIO.Api\\Controllers\\MainController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwBQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T20:15:16.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T17:54:00.403Z"
             }
           ]
         }

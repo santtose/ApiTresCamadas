@@ -1,4 +1,7 @@
-﻿namespace DevIO.Business.Models
+﻿using DevIO.Business.Models.Validations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace DevIO.Business.Models
 {
     public class Fornecedor : Entity
     {
@@ -10,5 +13,11 @@
 
         // EF Relation
         public IEnumerable<Produto> Produtos { get; set; }
+                
+        public override bool EhValido()
+        {            
+            ValidationResult = new FornecedorValidation().Validate(this);
+            return ValidationResult.IsValid;
+        }
     }
 }

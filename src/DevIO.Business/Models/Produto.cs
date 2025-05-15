@@ -15,5 +15,11 @@
 
         // EF Relation
         public Fornecedor Fornecedor { get; set; }
+
+        public override bool EhValido()
+        {
+            ValidationResult = new Validations.ProdutoValidation().Validate(this);
+            return ValidationResult.IsValid;
+        }
     }
 }
