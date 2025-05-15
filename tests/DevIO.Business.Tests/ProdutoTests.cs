@@ -1,5 +1,6 @@
 ﻿using DevIO.Business.Interfaces.Repository;
 using DevIO.Business.Models;
+using DevIO.Business.Models.Validations;
 using DevIO.Business.Services;
 using Moq;
 using Moq.AutoMock;
@@ -10,11 +11,13 @@ namespace DevIO.Business.Tests
     {
         private readonly AutoMocker _mocker;
         private readonly ProdutoService _produtoService;
+        private readonly ProdutoValidation _produtoValidation;
 
         public ProdutoTests()
         {
             _mocker = new AutoMocker();
             _produtoService = _mocker.CreateInstance<ProdutoService>();
+            _produtoValidation = _mocker.CreateInstance<ProdutoValidation>();
         }
 
         [Fact(DisplayName = "Adicionar Produto com Sucesso")]
@@ -63,6 +66,29 @@ namespace DevIO.Business.Tests
             // Assert
             Assert.False(produto.EhValido());
             _mocker.GetMock<IProdutoRepository>().Verify(r => r.Adicionar(produto), Times.Never);
+        }
+
+        [Fact(DisplayName = "Validar Produto com Falha")]
+        [Trait("Categoria", "Produto Service Tests")]
+        public async Task ProdutoService_Validar_DeveFalharDevidoFaltaDePreenchimento()
+        {
+            var idGuid = Guid.NewGuid();
+            // Arrange
+            var produto = new Produto
+            {
+                Id = idGuid,
+                Nome = "",
+                Descricao = "Descricao Teste",
+                Valor = 100,
+                Ativo = true,
+                FornecedorId = Guid.NewGuid()
+            };
+
+            // Act
+            var resultado = _produtoValidation.Validate(produto);
+
+            // Assert
+            Assert.False(resultado.IsValid);
         }
     }
 }

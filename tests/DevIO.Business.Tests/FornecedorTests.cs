@@ -176,7 +176,7 @@ namespace DevIO.Business.Tests
             _mocker.GetMock<IFornecedorRepository>().Verify(r => r.Atualizar(fornecedor), Times.Never);
         }
 
-        [Fact(DisplayName = "Validar Preenchimento Fornecedor com Falha")]
+        [Fact(DisplayName = "Validar Fornecedor com Falha")]
         [Trait("Categoria", "Fornecedor Service Tests")]
         public void FornecedorService_ValidarFornecedor_DeveFalharDevidoFaltaDePreenchimento()
         {
@@ -203,7 +203,7 @@ namespace DevIO.Business.Tests
             Assert.False(resultadoFornecedor.IsValid);
         }
 
-        [Fact(DisplayName = "Validar Preenchimento Endereco com Falha")]
+        [Fact(DisplayName = "Validar Endereco com Falha")]
         [Trait("Categoria", "Fornecedor Service Tests")]
         public void FornecedorService_ValidarEndereco_DeveFalharDevidoFaltaDePreenchimento()
         {
