@@ -8,6 +8,15 @@ namespace DevIO.Business.Tests
 {
     public class ProdutoTests
     {
+        private readonly AutoMocker _mocker;
+        private readonly ProdutoService _produtoService;
+
+        public ProdutoTests()
+        {
+            _mocker = new AutoMocker();
+            _produtoService = _mocker.CreateInstance<ProdutoService>();
+        }
+
         [Fact(DisplayName = "Adicionar Produto com Sucesso")]
         [Trait("Categoria", "Produto Service Tests")]
         public async Task ProdutoService_Adicionar_DeveExecutarComSucesso()
@@ -24,16 +33,12 @@ namespace DevIO.Business.Tests
                 FornecedorId = Guid.NewGuid()
             };
 
-            var mocker = new AutoMocker();
-
-            var produtoService = mocker.CreateInstance<ProdutoService>();
-
             // Act
-            await produtoService.Adicionar(produto);
+            await _produtoService.Adicionar(produto);
 
             // Assert
             Assert.True(produto.EhValido());
-            mocker.GetMock<IProdutoRepository>().Verify(r => r.Adicionar(produto), Times.Once);
+            _mocker.GetMock<IProdutoRepository>().Verify(r => r.Adicionar(produto), Times.Once);
         }
 
         [Fact(DisplayName = "Adicionar Produto com Falha")]
@@ -52,16 +57,12 @@ namespace DevIO.Business.Tests
                 FornecedorId = Guid.NewGuid()
             };
 
-            var mocker = new AutoMocker();
-
-            var produtoService = mocker.CreateInstance<ProdutoService>();
-
             // Act
-            await produtoService.Adicionar(produto);
+            await _produtoService.Adicionar(produto);
 
             // Assert
             Assert.False(produto.EhValido());
-            mocker.GetMock<IProdutoRepository>().Verify(r => r.Adicionar(produto), Times.Never);
+            _mocker.GetMock<IProdutoRepository>().Verify(r => r.Adicionar(produto), Times.Never);
         }
     }
 }
