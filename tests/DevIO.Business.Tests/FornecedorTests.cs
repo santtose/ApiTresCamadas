@@ -35,7 +35,6 @@ namespace DevIO.Business.Tests
 
             var mocker = new AutoMocker();
             var fornecedorService = mocker.CreateInstance<FornecedorService>();
-
             // Act
             await fornecedorService.Adicionar(fornecedor);
 
