@@ -21,6 +21,7 @@ namespace DevIO.Api.Controllers
             return !_notificador.TemNotificacao();
         }
 
+        // Teste commit
         protected ActionResult CustomResponse(HttpStatusCode statusCode = HttpStatusCode.OK, object result = null)
         {
             if (OperacaoValida())
